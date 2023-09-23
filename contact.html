@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="vendors/css/style.css" />
+    <link rel="stylesheet" href="vendors/css/contact.css" />
 
-    <title>Daena</title>
+    <title>Daena - Contact</title>
 </head>
 
 <body>
@@ -70,13 +70,10 @@
     <section class="hero-section">
         <div class="section-container">
             <h1>
-                Revelation <span>and</span> Insight <span>in</span> Cybersecurity
+                Contact
             </h1>
             <p>
-                We offer a full suite of services to help businesses and individuals
-                protect themselves against online threats. Our cybersecurity company
-                specializes in online data protection and security. Here is a more
-                detailed description of our services
+                If you are interested in our services, do not hesitate to contact us to discuss your IT security needs. We are available to answer all your questions and offer you personalized solutions to protect your data online.
             </p>
             <img class="hero-image" src="resources/images/hero.png" alt="Hero Image" />
             <div class="hero-overlay"></div>
@@ -85,7 +82,37 @@
 
     <main class="main-section">
         <div class="main-section-container">
-            <h1 style="text-align: center; font-size:5rem">Under Construction</h1>
+            <form action="#" method="post">
+                <div class="form-block">
+                    <div class="input-block">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    <div class="input-block">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </div>
+                </div>
+                <div class="form-block">
+                    <div class="input-block">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                    <div class="input-block">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="input-block">
+                    <label for="Subject">Subject</label>
+                    <input type="text" name="Subject" id="Subject">
+                </div>
+                <div class="input-block">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </div>
+                <input type="button" value="Submit" id="submitBtn">
+            </form>
         </div>
     </main>
 
