@@ -79,14 +79,20 @@ body {
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+    border: 2px solid transparent;
+    border-radius: 3rem;
 }
 
 .main-menu ul .main-menu-links:hover {
-    color: #848991;
+    border: 2px solid #F9EE5A;
 }
 
 .main-menu ul .main-menu-links-lang {
     font-weight: 700;
+}
+
+.main-menu ul .main-menu-links-lang:hover {
+    border: 2px solid transparent;
 }
 
 .main-menu ul .main-menu-links-lang svg {
@@ -379,9 +385,9 @@ transition: 0.3s;
 }
 
 .contact-block-content-left a:hover {
-border: 2px solid #3C5071;
-color: #ffffff;
-background: #3C5071;
+border: 2px solid  #FFEC58;
+background:  #FFEC58;
+box-shadow: 0px 0.4rem 1rem 0px rgba(0, 0, 0, 0.10);
 }
 
 .contact-block-content-right {
@@ -418,6 +424,11 @@ background: #3C5071;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+
+.footer-content p svg {
+    margin-right: 1rem;
 }
 
 .footer-copyright {

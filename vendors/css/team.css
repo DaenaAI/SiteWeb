@@ -79,14 +79,20 @@ body {
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+    border: 2px solid transparent;
+    border-radius: 3rem;
 }
 
 .main-menu ul .main-menu-links:hover {
-    color: #848991;
+    border: 2px solid #F9EE5A;
 }
 
 .main-menu ul .main-menu-links-lang {
     font-weight: 700;
+}
+
+.main-menu ul .main-menu-links-lang:hover {
+    border: 2px solid transparent;
 }
 
 .main-menu ul .main-menu-links-lang svg {
@@ -229,6 +235,10 @@ padding: 2.5rem 0 1rem;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+.footer-content p svg {
+    margin-right: 1rem;
 }
 
 .footer-copyright {
